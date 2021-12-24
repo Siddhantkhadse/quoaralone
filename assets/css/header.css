@@ -1,0 +1,52 @@
+.header {
+    background-color: #211d5a;
+    width: 100%;
+    height: 67px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center; }
+  
+  .mainsection {
+    height: 100%;
+    width: 867px;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px; }
+  
+  .symbol {
+    height: 44px;
+    width: 44px;
+    filter: white;
+    filter: invert(1); }
+  
+  .mainsection img {
+    height: 44px;
+    width: 44px;
+    column-fill: white;
+    /* background-color: white; */ }
+  
+  .search {
+    width: 58%;
+    background-color: white;
+    height: 44px;
+    border-radius: 13px; }
+  
+  /* main css */
+  .mainsec {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%; }
+  
+  .main {
+    height: 100%;
+    width: 867px;
+    margin-top: 30px;
+    display: flex; }
+  
+  .maincontent {
+    width: 70%;
+    /* background-color: pink; */ }
+  

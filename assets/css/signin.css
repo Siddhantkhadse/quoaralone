@@ -1,0 +1,61 @@
+body{
+
+}
+.maincontent {
+    /* padding: 10%; */
+    display: flex;
+    justify-content: center;
+}
+.formdiv {
+    background-color: white;
+    width: 377px;
+    border: 1px solid black;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+form {
+    /*background-color: red;*/
+    width: 568px;
+}
+
+.heading {
+    height: 55px;
+    width: 355px;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* background: cyan; */
+    font-family: monospace;
+    font-size: larger;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+h1{
+    margin: 0px;
+}
+input {
+    /* background: cyan; */
+    height: 40px;
+    width: 355px;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+}
+button {
+    /* background: cyan; */
+    height: 35px;
+    width: 355px;
+    margin: 10px;
+    padding: 0px;
+    border: 1px solid black;
+    font-size: larger;
+    color: white;
+}
+.submit{
+background-color: #252159;
+}
+.joinwithgoogle{
+background-color: green;
+}
