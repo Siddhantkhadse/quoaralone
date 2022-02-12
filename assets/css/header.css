@@ -39,26 +39,65 @@ body{
   height: 44px;
   border-radius: 36px;
 }
-/* main css */
 
-.mainsec {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+/*new post*/
+.newpost {
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    /* left: 40%; */
+    border: 1px solid black;
+    height: 300px;
+    width: 500px;
+    display: none;
+    flex-direction: column;
+    font-size: x-large;
+    font-family: monospace;
+    box-sizing: border-box;
+    background-color: #211d5a;
 }
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    margin-bottom: 6px;
+}
+.cross {
+    border: 1px solid;
+    border-radius: 65px;
+    width: 23px;
+    cursor: context-menu;
+    text-align: -webkit-center;
+}
+.newpost a {
+    border-style: none;
+    text-decoration: none;
+}
+.newpost form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.newpost input {
+    color: white;
+    background-color: #211d5a;
+    font-size: smaller;
+    height: 35px;
+    font-family: sans-serif;
+}
+.newpost textarea {
+    width: 100%;
+    /* margin: 8px; */
+    height: 100%;
+    font-size: large;
+    box-sizing: border-box;
+}
+/*new post ends*/
 
-.main {
-  height: 100%;
-  width: 867px;
-  margin-top: 30px;
-  display: flex;
-}
-.profile-photo:hover ~ .options{
-  display: flex;
-}
-
-/*dropdown*/
+/*dropdown profile options*/
 .options {
   /*background-color: aqua;*/
   position: absolute;
