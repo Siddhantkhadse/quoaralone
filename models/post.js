@@ -1,12 +1,12 @@
 const mongoose=require('mongoose');
 
-const postSchema=new monngoose.Schema({
+const postSchema=new mongoose.Schema({
     content:{
         type:String,
         required:true
     },
     user:{
-        mongoose.Schema.Type.ObjectId,
+        type:mongoose.Schema.Types.ObjectId,
         ref:'User'
     }
 
@@ -14,6 +14,6 @@ const postSchema=new monngoose.Schema({
 },{
     timestamps:true
 });
-const Post=mongoose('Post',postSchema);
+const Post=mongoose.model('Post',postSchema);
 
 module.exports=Post;
