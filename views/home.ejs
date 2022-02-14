@@ -3,10 +3,43 @@
     <div class="main">
 
             <div class="maincontent">
-                
-                <div class="post">
+                <% for(post of posts){ %>
+                    <div class="post">
+                        <div class="userdetails">
+                            <img src="profile.png" alt="">
+                            <div class="usersname">
+                                <h5> <%= post.user.username %> </h5> 
+                                <br>
+                                13 August 2021 at 10:13 PM  
+                            </div>
+                        </div>
+                        <div class="post-photo">
+                            <img src="model.jpg" alt="">   
+                        </div>
+                        <div class="reactionsdiv">
+                            <div class="reactions">
+                                <img src="Like.png" alt="">
+                                <img src="Heart.png" alt="">
+                                <img src="Laugh.png" alt="">
+                                <img src="Angry.png" alt="">
+                                <div class="reactionnumber">255</div>
+                                <div class="sharedetails">
+                                    <img class="share" src="Share.png" alt="">
+                                    <div class="sharenumber">255</div>
+                                </div>
+                               
+    
+                            </div> 
+                            <div class="postcontent">
+                                <%= post.content %>                            </div>
+                        </div>
+    
+    
+                    </div>  
+                <%} %>
+                <!-- <div class="post">
                     <div class="userdetails">
-                        <img src="images/profile.png" alt="">
+                        <img src="profile.png" alt="">
                         <div class="usersname">
                             <h5>Bobby Misner</h5> 
                             <br>
@@ -14,46 +47,29 @@
                         </div>
                     </div>
                     <div class="post-photo">
-                        <img src="images/model.jpg" alt="">   
+                        <img src="model.jpg" alt="">   
                     </div>
-                    <div class="reactions">
-                        <img src="images/Like.png" alt="">
-                        <img src="images/Heart.png" alt="">
-                        <img src="images/Laugh.png" alt="">
-                        <img src="images/Angry.png" alt="">
-                        <div class="reactionnumber">255</div>
-                        <div class="sharedetails">
-                            <img class="share" src="images/Share.png" alt="">
-                            <div class="sharenumber">255</div>
-                        </div>
-                        
-                    </div> 
-                </div> 
-                <!-- <div class="post">
-                    <div class="userdetails">
-                        <img src="images/profile.png" alt="">
-                        <div class="usersname">
-                            <h5>Logan Paul</h5> 
-                            <br>
-                            12 August 2021 at 9:15 PM  
+                    <div class="reactionsdiv">
+                        <div class="reactions">
+                            <img src="Like.png" alt="">
+                            <img src="Heart.png" alt="">
+                            <img src="Laugh.png" alt="">
+                            <img src="Angry.png" alt="">
+                            <div class="reactionnumber">255</div>
+                            <div class="sharedetails">
+                                <img class="share" src="Share.png" alt="">
+                                <div class="sharenumber">255</div>
+                            </div>
+                           
+
+                        </div> 
+                        <div class="postcontent">
+                            A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.
                         </div>
                     </div>
-                    <div class="post-photo">
-                        <img src="images/loganpaul.jpg" alt="">   
-                    </div>
-                    <div class="reactions">
-                        <img src="images/Like.png" alt="">
-                        <img src="images/Heart.png" alt="">
-                        <img src="images/Laugh.png" alt="">
-                        <img src="images/Angry.png" alt="">
-                        <div class="reactionnumber">255</div>
-                        <div class="sharedetails">
-                            <img class="share" src="images/Share.png" alt="">
-                            <div class="sharenumber">255</div>
-                        </div>
-                        
-                    </div> 
-                </div>   -->
+
+
+                </div>  -->
 
             </div>
             <div class="sidecontent">
