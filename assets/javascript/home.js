@@ -1,3 +1,4 @@
+
 var createpost0=document.getElementById('createpost');
 var newpost0=document.getElementsByClassName('newpost');
 var cross0=document.getElementsByClassName('cross');

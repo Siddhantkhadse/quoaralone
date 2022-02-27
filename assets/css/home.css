@@ -1,4 +1,3 @@
-
 .mainsec {
     display: flex;
     justify-content: center;
@@ -7,32 +6,156 @@
   }
   
   .main {
-    height: 100%;
-    width: 867px;
-    margin-top: 30px;
-    display: flex;
+      height: 100%;
+      width: 867px;
+      margin-top: 30px;
+      display: flex;
+      margin: 87px;
   }
   .profile-photo:hover ~ .options{
     display: flex;
-  }
   
-  .maincontent{
-      width: 70%;
-      /* background-color: pink; */
   }
+  .post {
+      margin-bottom: 10px;
+      border: 1px solid;
+      width: 600px;
+  }
+  .post {
+      margin-bottom: 10px;
+      border: 1px solid;
+  }
+  /*comments css*/
+  .commentsectionheader {
+      width: 254.38px;
+      background-color: #211d5a;
+      color: white;
+      height: 32px;
+      display: flex;
+      justify-content: flex-end;
+      /* right: 1px; */
+      /* margin-right: 19px; */
+      padding-right: 15px;
+      padding-top: 4px;
+      box-sizing: border-box;
+      position: fixed;
+  }
+  .commentscross {
+      height: 25px;
+      width: 25px;
+      border-radius: 12px;
+      border: 1px solid white;
+      text-align: center;
+      box-sizing: border-box;
+      cursor: context-menu;
+      padding-top: -9px;
+      padding-bottom: -40px;
+      /* padding-bottom: 24px; */
+  }
+  .commentsection {
+      /* background-color: aqua; */
+      font-size: x-large;
+      font-family: monospace;
+      /* margin-left: 55px; */
+      /* border: 1px black solid; */
+      width: 257px;
+      margin-left: 6px;
+      padding-left: 2px;
+      height: 732px;
+      padding-top: 3px;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      /* position: fixed; */
+      left: 760px;
+      z-index: 1;
+  }
+  .comments {
+      width: 254.38px;
+      height: 600px;
+      overflow: auto;
+      top: 122px;
+      position: fixed;
+      border-left: 1px black solid;
+      border-right: 1px solid;
+      /* border: 1px solid; */
+      box-sizing: border-box;
+  }
+  .comment {
+      width: 100%;
+      /* height: 78px; */
+      display: flex;
+      margin: 3px;
+      /* background-color: black; */
+      /* box-sizing: border-box; */
+  }
+  .commentleft{
+  /*background-color: red;*/
+  }
+  .commentleft img{
+      width: 44px;
+      height: 44px;
+  }
+  .commentright {
+      /* background-color: blue; */
+      margin: 3px;
+      font-size: large;
+      font-family: sans-serif;
+  }
+  .commentusername h4{
+      margin: 0px;
+  }
+  .commentsfill {
+      width: 254.38px;
+      height: 100px;
+      background-color: black;
+      position: fixed;
+      top: 720px;
+  }
+  .commentsfill form {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* margin: 0px; */
+  }
+  .commentsfill textarea {
+      background-color: white;
+      height: 68Px;
+      width: 100%;
+      padding: 0px;
+      font-family: system-ui;
+      font-size: large;
+      border: 0px;
+      border: 1px solid;
+      box-sizing: border-box;
+      /* background: aqua; */
+  }
+  .commentsfill input {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 31px;
+      border-width: 0px;
+      background: #211d5a;
+      font-size: large;
+      color: white;
+      font-family: system-ui;
+      /* margin: 0px; */
+  }
+  /*comments css ends here*/
   
+  /*side content css*/
   .sidecontent {
       /* background-color: aqua; */
       font-size: x-large;
       font-family: monospace;
-      margin-left: 55px;
-      height: 625px;
-  }
-  
-  .post {
-      /*//height: 682px;*/
-      width: 100%;
-      margin-bottom: 25px;
+      margin-left: 28px;
+      width: 300px;
+      display: flex;
   }
   .userdetails {
       width: 100%;
@@ -41,7 +164,7 @@
       display: flex;
       padding-left: 12px;
       box-sizing: border-box;
-      border: black 1px solid;
+      /*border: black 1px solid;*/
       border-bottom: 0em;
   }
   .userdetails img {
@@ -70,11 +193,11 @@
   .post-photo img {
       height: 100%;
       width: 100%;
-      border: 1px solid black;
+      /*border: 1px solid black;*/
       box-sizing: border-box;
   }
   .reactionsdiv {
-      border: 1px solid black;
+      /*border: 1px solid black;*/
       border-top: none;
   }
   .reactions {
@@ -85,6 +208,9 @@
       box-sizing: border-box;
       /* border: 1px solid black; */
       border-top: 0;
+  }
+  .postcomments{
+      /*background-color: black;*/
   }
   .postcontent {
       color: black;
@@ -103,12 +229,12 @@
       font-family: system-ui;
       font-size: x-large;
   }
-  .sharedetails {
+  .commentdetails {
       margin: 0%;
       margin-left: 179px;
       display: flex;
   }
-  .sharenumber{
+  .commentnumber{
       margin: 12px;
       color: black;
       font-family: system-ui;
@@ -117,23 +243,26 @@
   }
   
   /* Side Section */
-  .pageheading{
+  .pageheading {
       margin: 0;
+      position: fixed;
+      top: 86px;
   }
   
-  .sidecontent {
-      /* background-color: aqua; */
+  /*.sidecontent {
+      /* background-color: aqua; 
       font-size: x-large;
       font-family: monospace;
       margin-left: 55px;
-  }
-  .popularpages{
-      
+  }*/
+  .popularpages {
+      position: fixed;
+      top: 116px;
   }
   .policypages {
-      
       font-family: system-ui;
-      margin-top: 25px;
+      margin-top: 439px;
+      position: fixed;
   }
   .policypage {
       margin: 0%;

@@ -39,7 +39,7 @@ module.exports.create=function(req,res){
                 console.log('error in craeting user');
             }
             else{
-                console.group('user craeted successfully')
+                console.group('user created successfully')
             return res.redirect('/users/sign-in');
             }
       }) 

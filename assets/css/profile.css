@@ -110,10 +110,10 @@ body{
 .maincontent{
     width: 70%;
 }
-.profilesection{
+.profilesection {
     height: 350px;
-    /*width: 563px;*/
-    /*background-color: darkcyan;*/
+    width: 610px;
+    /* background-color: darkcyan; */
     display: flex;
 }
 .left {
@@ -135,14 +135,21 @@ body{
     height: 100%;
     width: 60%;
     padding-right: 15px;
-    /*background-color: pink;*/
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
 }
 .userdetails {
-    /*background-color: darkred;*/
     width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    text-align: end;
+    height: 22%;
+    background-color: white;
+    /* display: flex; */
+    padding-left: 12px;
+    box-sizing: border-box;
+    /* border: black 1px solid; */
+    border-bottom: 0em;
+    margin-left: 130px;
+    /* left: 9px; */
 }
 .userdetails em {
     margin: 0;
@@ -275,19 +282,16 @@ margin: 0px;
 
 
 
-.sidecontent {
-    /* background-color: aqua; */
-    font-size: x-large;
-    font-family: monospace;
-    margin-left: 55px;
-    height: 625px;
-}
+
 /*sidection */
 .sidecontent {
     /* background-color: aqua; */
     font-size: x-large;
     font-family: monospace;
-    margin-left: 55px;
+    margin-left: 28px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 .popularpages{
     
