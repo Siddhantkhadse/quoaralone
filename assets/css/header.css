@@ -217,7 +217,7 @@ body{
     margin-left: 6px;
     padding-left: 2px;
     height: 732px;
-    padding-top: 3px;
+    /* padding-top: 3px; */
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -227,9 +227,9 @@ body{
 }
 .comments {
     width: 254.38px;
-    height: 600px;
+    height: 594px;
     overflow: auto;
-    top: 122px;
+    top: 119px;
     position: fixed;
     border-left: 1px black solid;
     border-right: 1px solid;
@@ -265,7 +265,7 @@ body{
     height: 100px;
     background-color: black;
     position: fixed;
-    top: 720px;
+    top: 697px;
 }
 .commentsfill form {
     width: 100%;

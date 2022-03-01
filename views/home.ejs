@@ -1,12 +1,14 @@
 <link rel="stylesheet" href="/css/home.css">
 <div class="mainsec">
     <div class="main">
+        
             <div class="maincontent">
-                <div class="post">
+                <% for(post of posts){ %>
+                    <div class="post">
                     <div class="userdetails">
                         <img src="profile.png" alt="">
                         <div class="usersname">
-                            <h5>Bobby Misner</h5> 
+                            <h5><%-post.user.name %></h5> 
                             <br>
                             13 August 2021 at 10:13 PM  
                         </div>
@@ -28,13 +30,14 @@
 
                         </div> 
                         <div class="postcontent">
-                            A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.
+                            <%-post.content%>
                         </div>
                     </div>
 
 
                 </div> 
-                <div class="post">
+               <%}%>
+                 <!-- <div class="post">
                     <div class="userdetails">
                         <img src="profile.png" alt="">
                         <div class="usersname">
@@ -58,7 +61,7 @@
                         </div>
                         
                     </div> 
-                </div>  
+                </div>    -->
 
             </div>
             <div class="commentsection">
@@ -263,3 +266,4 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="/javascript/home.js"></script>
